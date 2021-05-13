@@ -1,0 +1,55 @@
+.welcome-header {
+  color: var(--spurscolor);
+  margin: 90px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 500;
+}
+.welcome-header__title {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.welcome-header__text {
+  width: 60%;
+  color: #3c4c74;
+}
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+#login-form input {
+  padding: 15px 0px;
+  border: none;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+#login-form input::placeholder {
+  color: rgba(15, 32, 75, 0.4);
+  font-family: "Oswald", sans-serif;
+}
+#login-form input:not([type="submit"]) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.4s ease-in-out;
+}
+#login-form input:focus {
+  border-color: var(--spurscolor);
+}
+#login-form input[type="submit"] {
+  background-color: var(--spurscolor);
+  color: white;
+  font-family: "Oswald", sans-serif;
+  cursor: pointer;
+  padding: 16px 0px;
+  border-radius: 5px;
+}
+#login-form a {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  text-decoration: none;
+  color: var(--spurscolor);
+  font-size: 17px;
+  font-weight: 400;
+}
