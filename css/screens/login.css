@@ -1,7 +1,61 @@
+body {
+  height: 100%;
+  width: 100%;
+  border: 1px solid black;
+}
+
 .login-screen {
   display: flex;
-  flex-direction: column;
+  width: 100%;
+  flex-direction: row;
   align-items: center;
-  width: 1200px;
-  height: 700px;
+}
+.login-row img {
+  width: 30px;
+  height: 30px;
+}
+.login-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+}
+.login-column:first-child {
+  width: 20%;
+}
+.login-column:last-child {
+  width: 80%;
+}
+
+.login-column > img {
+  height: 480px;
+  width: 720px;
+}
+.login-row {
+  padding: 20px 0px;
+  text-align: center;
+  font-size: 35px;
+}
+.login-row > input {
+  margin: 10px 0px;
+  border: none;
+  padding: 15px;
+  border-radius: 3px;
+  background-color: rgba(197, 196, 196, 0.322);
+}
+.login-row input::placeholder {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 10px;
+}
+
+.login-row i {
+  padding: 7px;
+  border-radius: 5px;
+  color: rgba(128, 128, 128, 0.445);
+  background-color: white;
+  border: 1px solid rgba(128, 128, 128, 0.445);
+}
+.login-row i:hover {
+  color: white;
+  background-color: tomato;
 }

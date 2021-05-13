@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Song+Myung&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400&display=swap");
 @import "reset.css";
 @import "variable.css";
 
@@ -9,10 +9,9 @@
 @import "screens/login.css";
 
 body {
-  font-family: "Song Myung", serif;);
-  width: 100vw;
-  height: 100vh;
-}
-.main-screen {
-  padding: 0px var(--horizontal-space);
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: ;
+  width: 1200px;
+  height: 720px;
+  font-weight: 600;
 }
