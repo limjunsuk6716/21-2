@@ -37,8 +37,8 @@
 .login-row > input {
   margin: 10px 0px;
   border: none;
-  padding: 13px;
-  border-radius: 3px;
+  padding: 10px 3px;
+  border-radius: 5px;
   background-color: rgba(197, 196, 196, 0.322);
 }
 .login-row input::placeholder {
@@ -47,7 +47,7 @@
 }
 
 .login-row i {
-  padding: 15px;
+  padding: 10px;
   border-radius: 7px;
   color: rgba(128, 128, 128, 0.445);
   background-color: white;
