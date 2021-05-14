@@ -1,14 +1,6 @@
-body {
-  height: 100%;
-  width: 100%;
-  border: 1px solid black;
-}
-
 .login-screen {
   display: flex;
-  width: 100%;
-  flex-direction: row;
-  align-items: center;
+  padding: 0px;
 }
 .login-row img {
   width: 30px;
@@ -18,9 +10,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 20px;
 }
 .login-column:first-child {
+  padding: 20px;
   width: 20%;
 }
 .login-column:last-child {
@@ -34,12 +26,18 @@ body {
 .login-row {
   padding: 20px 0px;
   text-align: center;
-  font-size: 35px;
+  font-size: 30px;
+}
+.login-row:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .login-row > input {
   margin: 10px 0px;
   border: none;
-  padding: 15px;
+  padding: 13px;
   border-radius: 3px;
   background-color: rgba(197, 196, 196, 0.322);
 }
@@ -49,8 +47,8 @@ body {
 }
 
 .login-row i {
-  padding: 7px;
-  border-radius: 5px;
+  padding: 15px;
+  border-radius: 7px;
   color: rgba(128, 128, 128, 0.445);
   background-color: white;
   border: 1px solid rgba(128, 128, 128, 0.445);
